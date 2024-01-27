@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color:black;
+}
+body{
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    padding: 30px;
+    width: 25rem;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50px;
+    background-color:rgb(249, 214, 172);
+    box-shadow: 10px 15px 20px gray;
+}
+button{
+    font-size: 26px;
+    border-radius: 50px;
+    height: 3rem;
+    width: 4rem;
+    border: none;
+    margin: 3px;
+}
+#inputbox{
+    font-size: 30px;
+    width: 22rem;
+    height: 4rem;
+    border: none;
+    margin-bottom: 8px;
+    text-align:center;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+button:active{
+    transform: scale(1);
+}
+.ac{
+    width: 10rem;
+}

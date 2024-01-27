@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" id="inputbox" readonly></td>
+            </tr>
+            <tr>
+            <td colspan="2"><button class="ac" onclick="ac()">AC</button></td>
+            <td><button onclick="del()">DEL</button></td>
+             <td><button onclick="input()">/</button></td> 
+        </tr>
+    <tr>
+        <td><button onclick="7">7</button></td>
+        <td><button onclick="8">8</button></td>
+        <td><button onclick="9">9</button></td>
+        <td><button onclick="">*</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="4">4</button></td>
+        <td><button onclick="5">5</button></td>
+        <td><button onclick="6">6</button></td>
+        <td><button onclick="">+</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="1">1</button></td>
+        <td><button onclick="2">2</button></td>
+        <td><button onclick="3">3</button></td>
+         <td><button onclick="">-</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="0">0</button></td>
+        <td><button onclick="">00</button></td>
+        <td><button onclick="">.</button></td>
+         <td><button onclick="">=</button></td>
+    </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
